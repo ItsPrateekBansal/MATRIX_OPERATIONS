@@ -24,6 +24,14 @@ int i=0,j=0;
 
         i++;
     }while(i<r);
+    //displaying the entered matrix
+    for(int a=0;a<r;a++){
+        for(int b=0;b<c;b++){
+        printf("%d",matrix[a][b]);
+            printf("\t");
+        }
+      printf("\n");
+    }
 
 
     int transpose[c][r];
